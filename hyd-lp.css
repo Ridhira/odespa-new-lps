@@ -1,0 +1,22 @@
+ #bannerSlider .slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    }
+    #bannerSlider .slide.active {
+    opacity: 1;
+    }
+
+    #sliderDots .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 9999px;
+    background: rgba(255,255,255,0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    }
+    #sliderDots .dot.active {
+    background: #b69348;
+    width: 20px;
+    }

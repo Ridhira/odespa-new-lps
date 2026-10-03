@@ -1,0 +1,217 @@
+:where([class^="ri-"])::before {
+  content: "\f3c2";
+}
+
+html, body  {
+    overflow-x: hidden;
+}
+
+@media (max-width: 800px) {
+  html, body {
+  overflow-x: hidden;
+  }
+}
+
+
+body {
+  font-family: 'Lora', serif;
+  color: #333;
+  background-color: #F5F2EA;
+  color :#f0f7f8;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('your-image-url');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-section img {
+  display: block;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Continue rest of your styles from <style> tag... */
+
+.testimonial-card {
+  transition: opacity 0.3s ease;
+}
+
+.booking-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('your-booking-image-url');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Include input, checkbox, radio, switch, and other styles from the original <style> block */
+
+    .overflow-x-auto::-webkit-scrollbar {
+        display: none;
+    }
+
+.glow-on-hover {
+  transition: box-shadow 0.3s;
+}
+.glow-on-hover:hover {
+  box-shadow: 0 0 16px 2px #b69348aa;
+}
+.image-zoom {
+  transition: transform 0.5s cubic-bezier(.4,0,.2,1);
+}
+.image-zoom:hover {
+  transform: scale(1.05);
+}
+
+/* Gentle Fade-in Animation (can be used with JS or utility classes) */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s cubic-bezier(.4,0,.2,1);
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+img {
+  display: block;
+}
+
+/* Testimonial dots styling */
+.testimonial-dot {
+  background-color: #d1d5db; /* gray-300 */
+  transition: background-color 0.3s;
+}
+
+.testimonial-dot.active {
+  background-color: #b69348 !important;
+}
+
+.testimonial-dot:hover {
+  background-color: #b69348 !important;
+}
+
+
+ /* Modal Form Styles */
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-form {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 500px;
+            position: relative;
+        }
+
+        .modal-heading {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .modal-heading p {
+            font-size: 1.2rem;
+            color: #b69348;
+            font-weight: bold;
+        }
+
+        .btn-close {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: #333;
+        }
+
+        .sub-heading {
+            margin-bottom: 1.5rem;
+            color: #666;
+        }
+
+        .user-form-container {
+            margin-bottom: 1rem;
+        }
+
+        .user-form-container label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+
+        .user-form-container input {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .button-container {
+            margin-top: 1.5rem;
+        }
+
+        .submit-btn {
+            background-color: #b69348;
+            color: white;
+            border: none;
+            padding: 0.8rem 2rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            width: 100%;
+        }
+
+        .terms-and-condition {
+            margin-top: 1rem;
+            text-align: center;
+            color: #999;
+            font-size: 0.8rem;
+        }
+
+        span[required] {
+            color: red;
+        }
+
+
+       /* ✅ CHANGE NEXT / PREV BUTTON COLOR */
+.test-next,
+.test-prev {
+  border-color: #b69348;     /* border color */
+  color: #b69348;            /* icon color */
+}
+
+/* ✅ HOVER EFFECT */
+.test-next:hover,
+.test-prev:hover {
+  background-color: #b69348;
+  color: #ffffff;
+  border-color: #b69348;
+}
+
+
+
+
+
+
+
